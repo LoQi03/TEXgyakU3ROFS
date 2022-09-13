@@ -1,0 +1,50 @@
+\documentclass[twocolumn,columnsep=1cm]{article}
+\usepackage{hulipsum}
+\usepackage[magyar]{babel}
+\usepackage{geometry}
+\geometry{inner=3cm,outer=5cm}
+\geometry{bindingoffset=1cm}
+\geometry{marginparwidth=3cm,marginparsep=0.5cm}
+\usepackage{marginnote}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\pagestyle{headings}
+\markright{Nagy Mát}
+\begin{document}
+\title{cím}
+\maketitle
+\tableofcontents
+\pagenumbering{roman}
+\pagebreak
+\begin{abstract}
+\hulipsum[1-2]
+\footnote{Megakarok halni}
+\marginpar{Valami szöveg,de már nem bírom ezt a fost}
+\end{abstract}
+\section{Valami}
+\subsubsection {Igen}
+\hulipsum[2-5]
+\subsubsection {Nem}
+\pagenumbering{arabic}
+\footnote{Valami}
+\subsubsection{Talán}
+\paragraph {Para}
+\subparagraph{lent az utcán}
+
+
+\section[Test]{Tesztelések}
+\appendix
+\section{Meghalok}
+\subsubsection {Igen}
+\subsubsection {Nem}
+\section{Oljetek meg}
+\subsubsection {Igen}
+\subsubsection {Nem}
+\quote
+\hulipsum[1]
+\quotation
+\hulipsum[1]
+\verse
+\hulipsum[1-2]
+\end{document}

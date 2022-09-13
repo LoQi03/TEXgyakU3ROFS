@@ -1,0 +1,13 @@
+\select@language {magyar} \contentsline {section}{\numberline {1}Valami}{ii}{}%
+\select@language {magyar} \contentsline {subsubsection}{\numberline {1.0.1}Igen}{ii}{}%
+\select@language {magyar} \contentsline {subsubsection}{\numberline {1.0.2}Nem}{1}{}%
+\select@language {magyar} \contentsline {subsubsection}{\numberline {1.0.3}Talán}{1}{}%
+\select@language {magyar} \contentsline {paragraph}{\numberline {1.0.3.1}Para}{1}{}%
+\select@language {magyar} \contentsline {subparagraph}{\numberline {1.0.3.1.1}lent az utcán}{1}{}%
+\select@language {magyar} \contentsline {section}{\numberline {2}Test}{2}{}%
+\select@language {magyar} \contentsline {section}{\numberline {A}Meghalok}{2}{}%
+\select@language {magyar} \contentsline {subsubsection}{\numberline {A.0.1}Igen}{2}{}%
+\select@language {magyar} \contentsline {subsubsection}{\numberline {A.0.2}Nem}{2}{}%
+\select@language {magyar} \contentsline {section}{\numberline {B}Oljetek meg}{2}{}%
+\select@language {magyar} \contentsline {subsubsection}{\numberline {B.0.1}Igen}{2}{}%
+\select@language {magyar} \contentsline {subsubsection}{\numberline {B.0.2}Nem}{2}{}%

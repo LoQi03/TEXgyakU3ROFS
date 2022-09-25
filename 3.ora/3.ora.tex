@@ -1,0 +1,43 @@
+\documentclass{article}
+\newcommand{\myFigure}{
+\centering
+\includegraphics[scale=0.5] {kutya.jpg}
+}
+\usepackage{graphicx}
+\usepackage[inline]{enumitem}
+\usepackage{hulipsum}
+\begin{document}
+\begin{itemize*}[label=*,itemjoin*={ 	, és }]
+\item egy
+\item kettő 
+\item három
+\end{itemize*}
+\begin{enumerate}
+\item egy
+\begin{enumerate}
+\item masodik szint
+\begin{enumerate}
+\item harmadik szint
+\begin{enumerate}
+\item negyedik szint
+
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+\item[*] kettő
+\item három
+\\
+\hulipsum[2-5]
+\\
+\item negyedik
+\end{enumerate}
+\begin{figure}
+\myFigure
+\end{figure}
+\begin{description}
+\item[címke] \hulipsum[1]
+\item \hulipsum[2]
+\item[ez egy hosszabb címke!] \hulipsum[3]
+\end{description}
+
+\end{document}
